@@ -1,11 +1,4 @@
 {
-  "devDependencies": {
-    "webpack": "^5.91.0",
-    "webpack-cli": "^5.1.4"
-  },
-  "dependencies": {
-    "jquery": "^3.7.1"
-  },
   "name": "task_0",
   "version": "1.0.0",
   "description": "run task 1 - simple webpack",
@@ -16,5 +9,12 @@
     "build": "webpack --mode production"
   },
   "author": "Ogunsanya James",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.91.0",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "jquery": "^3.7.1"
+  }
 }
